@@ -1,0 +1,12 @@
+n=int(input('dwste aritho'))
+n=n*3+1
+x=n%10
+a=n//10
+sum = a+x
+print (sum)
+while (sum>=10):
+    x=sum %10
+    a = sum //10
+    sum= a + x
+    print (sum)
+print(sum)    
